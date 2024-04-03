@@ -1,0 +1,91 @@
+* {
+  font-family: "Inter";
+  font-weight: 400;
+}
+body {
+  width: 360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: auto;
+  padding: 24px 20px 24px 20px;
+  background-color: black;
+}
+.header__logo {
+  /* */
+}
+
+.header__logo-image {
+  width: 79px;
+  height: 16px;
+}
+
+.header__menu {
+}
+.header__menu-list {
+  list-style: none;
+}
+.header__menu-link {
+  color: white;
+  font-size: 16pt;
+  text-decoration: inherit;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
+}
+.header__menu-item {
+  margin-top: 12px;
+  text-decoration: underline;
+}
+
+.black-section {
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+.block-with-image {
+  background-image: url("./images/cover.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+.container-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.container-row {
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.big-text {
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1;
+}
+
+.text-on-center {
+  text-align: center;
+}
+.text-on-end {
+  margin-right: 20px;
+  text-align: end;
+}
+.w-200 {
+  width: 200px;
+}
+.w-auto {
+  width: auto;
+}
